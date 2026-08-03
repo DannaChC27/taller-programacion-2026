@@ -17,6 +17,8 @@ Additionally, this project incorporates artificial intelligence workflows by int
 ---
 
 ## Authors & Environment
-* **Developer:** Danna Valentina Chamorro Castellar
+* **Developers:** 
+  * Danna Valentina Chamorro Castellar
+  * Stefany Alejandra Garzón Quevedo
 * **Institution:** Universidad Manuela Beltrán (UMB)
 * **IDE & Tools:** Visual Studio Code, GitHub Copilot, Java 21, Gradle, JUnit 5.
