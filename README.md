@@ -24,4 +24,6 @@ Additionally, this project incorporates artificial intelligence workflows by int
 - Stefany Alejandra Garzón Quevedo
 
 **Institution:** Universidad Manuela Beltrán (UMB)
+**IDE & Tools:** Visual Studio Code, GitHub Copilot, Java 21, Maven, JUnit 5.
+**Institution:** Universidad Manuela Beltrán (UMB)
 **IDE & Tools:** Visual Studio Code, GitHub Copilot, Java 21, Gradle, JUnit 5.
