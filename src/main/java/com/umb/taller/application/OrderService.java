@@ -1,4 +1,4 @@
-package main.java.com.umb.taller.application;
+package com.umb.taller.application;
 
 import com.umb.taller.domain.Order;
 import com.umb.taller.domain.Product;
@@ -23,10 +23,7 @@ public class OrderService {
     // Business Operation demonstrating Custom Exception Throwing
     public void processOrder(Order order, Product product, int quantity) {
         if (product.getStock() < quantity) {
-            throw new InsufficientStockException(
-                product.getId(), 
-                "Cannot process order. Requested quantity (" + quantity + ") exceeds stock (" + product.getStock() + ")"
-            );
+            throw new InsufficientStockException(product.getId(), quantity);
         }
         product.reduceStock(quantity);
         order.addProduct(product);
