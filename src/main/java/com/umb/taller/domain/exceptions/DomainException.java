@@ -1,11 +1,13 @@
 package com.umb.taller.domain.exceptions;
 
-public abstract class DomainException extends RuntimeException {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class DomainException extends Exception {
+    private static final Logger logger = LoggerFactory.getLogger(DomainException.class);
+
     public DomainException(String message) {
         super(message);
-    }
-
-    public DomainException(String message, Throwable cause) {
-        super(message, cause);
+        logger.error("DomainException: {}", message);
     }
 }

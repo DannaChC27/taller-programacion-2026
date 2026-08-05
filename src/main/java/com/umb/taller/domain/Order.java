@@ -16,6 +16,10 @@ public class Order extends Entity implements Calculable {
         this.status = "PENDING";
     }
 
+    public static boolean isPending(Order order) {
+        return "PENDING".equals(order.getStatus());
+    }
+
     public void addProduct(Product product) {
         if (product == null) {
             throw new IllegalArgumentException("Product cannot be null");
